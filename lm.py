@@ -6,7 +6,7 @@ from torch.utils.data import DataLoader, Dataset
 from tqdm import tqdm
 from transformers import get_scheduler
 
-import wandb
+import trackio as wandb
 from d3pm_runner import D3PM
 from dit import DDiT_Llama
 

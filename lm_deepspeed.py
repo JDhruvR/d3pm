@@ -15,7 +15,7 @@ from torch.utils.data.distributed import DistributedSampler
 from tqdm import tqdm
 from transformers import default_data_collator, get_scheduler
 
-import wandb
+import trackio as wandb
 from d3pm_runner import D3PM
 from dit import DDiT_Llama
 

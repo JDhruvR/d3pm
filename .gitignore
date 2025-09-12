@@ -1,9 +1,1 @@
-presetup.sh
-setup.sh
-cu122py310
-data
-test
-wandb
-run.sh
-*.pyc
-ckpt
+roughwork.md

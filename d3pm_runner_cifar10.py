@@ -7,7 +7,7 @@ from torchvision.datasets import CIFAR10
 from torchvision.utils import make_grid
 from tqdm import tqdm
 
-import wandb
+import trackio as wandb
 from d3pm_runner import D3PM
 from dit import DiT_Llama
 
