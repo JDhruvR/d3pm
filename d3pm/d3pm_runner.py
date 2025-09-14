@@ -164,7 +164,7 @@ class D3PM(nn.Module):
                 mat = torch.ones(num_classes, num_classes) * beta / num_classes
                 mat.diagonal().fill_(1 - (num_classes - 1) * beta / num_classes)
                 q_onestep_mats.append(mat)
-            else:
+            else: # [TODO: WRITE MASKING]
                 raise NotImplementedError
         q_one_step_mats = torch.stack(q_onestep_mats, dim=0)
 
